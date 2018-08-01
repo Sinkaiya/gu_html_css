@@ -23,9 +23,30 @@ body, html {
     padding: 0;
     height: 100%;
 }
+body {
+	background-color: #f8f8f8;
+}
+#container {
+	height: auto;
+	margin: auto;
+}
+.description {
+	background-color: #eaeaea;
+}
+.description_properties {
+	color: grey;
+	list-style-image: url(../img/boo.png);
+}
 footer {
 	font-family: Verdana, sans-serif;
 	font-size: 10px;
+}
+.full_description {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
 }
 h1 {
 	font-family: Verdana, sans-serif;
@@ -35,9 +56,27 @@ h1 {
 h2 {
 	font-family: Verdana, sans-serif;
 	font-size: 25px;
-	font-style: bold;
+	font-weight: 700;
 	text-align: center;
 	color: #e25454;
+}
+.submit:active {
+	background: white;
+}
+.input_long {
+	width: 500px;
+}
+.input_short {
+	width: 300px;
+}
+.input_text {
+	width: 600px;
+	height: 400px;
+}
+.input_text, form input {	
+	font-size: 15px;
+	color: grey;
+	text-transform: capitalize;
 }
 main {
 	width: 100%;
@@ -66,6 +105,12 @@ nav ul {
 }
 .regular_text a {
 	color: inherit;
+}
+.short_description {
+	color: #494343;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
 }
 .yandex-map {
 	border: 1px solid black;
