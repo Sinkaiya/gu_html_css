@@ -1,0 +1,73 @@
+a {
+	text-decoration: none;
+	color: #e25454;
+	font-family: inherit;
+	font-size: inherit;
+}
+a:hover {
+    text-decoration: underline;
+   }
+article b {
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+}
+article hr {
+	width: 70%;
+}
+article img {
+	border: 1px solid black;
+	width: 150px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+footer {
+	font-family: Verdana, sans-serif;
+	font-size: 10px;
+}
+h1 {
+	font-family: Verdana, sans-serif;
+	font-size: 35px;
+	font-style: bold;
+}
+h2 {
+	font-family: Verdana, sans-serif;
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	color: #e25454;
+}
+main {
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	margin: auto;
+	text-align: justify;
+	font-size: 18px;
+}
+header hr, footer hr {
+	width: 1100px;
+}
+nav {
+	font-family: Verdana, sans-serif;
+}
+nav li {
+	display: inline;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+.regular_text {
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+}
+.regular_text a {
+	color: inherit;
+}
+.yandex-map {
+	border: 1px solid black;
+	width: 500px;
+}
