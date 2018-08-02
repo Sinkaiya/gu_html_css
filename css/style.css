@@ -32,6 +32,7 @@ body {
 #container {
 	height: auto;
 	margin: auto;
+	width: 1000px;
 }
 .description {
 	background-color: #eaeaea;
@@ -74,6 +75,7 @@ body {
 footer {
 	font-family: Verdana, sans-serif;
 	font-size: 10px;
+	margin: 20px auto;
 }
 .full_description {
 	color: #484343;
@@ -130,7 +132,7 @@ header img {
 	text-transform: capitalize;
 }
 main {
-	width: 100%;
+	width: 90%;
 	max-width: 1000px;
 	height: auto;
 	margin: auto;
@@ -160,6 +162,11 @@ nav ul {
 }
 .regular_text a {
 	color: inherit;
+}
+.separator {
+	width: 90%;
+	border-bottom: 1px solid black;
+	margin: auto;
 }
 .short_description {
 	color: #494343;
