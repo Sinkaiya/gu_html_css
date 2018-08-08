@@ -130,3 +130,85 @@ body {
 .circle:hover {
     background-color: #212121;
 }
+
+.featured-padding-site {
+    padding-left: 107px;
+    padding-right: 97px;
+    padding-top: 120px;
+}
+
+.featured-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-menu a {    
+    text-decoration: none;
+    padding: 19px 31px;
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.featured-menu ul {
+    display: flex;
+}
+
+.featured-menu li {
+    list-style-type: none;
+}
+
+.featured-menu .active-link {
+    color:  #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+    font-family: Montserrat;
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.featured-menu .explore {
+    font-family: Montserrat;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+.featured-menu .explore img {
+    width: 9px;
+    height: 12px;
+}
+
+.featured-chairs-list {    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-product {
+    background-image: url(../img/featured-new-back.png);
+    border: 1px solid #9c9c9c;
+    width: 270px;
+    height: 270px;
+    display: block;
+}
+
+.featured-chairs-list a {
+    border: 1px solid #9c9c9c;
+    width: 270px;
+    height: 270px;
+    display: block;
+}
+
+.featured-chairs-list a {
+    text-decoration: none;
+}
+
+.featured-chairs-list li {
+    list-style-type: none;
+}
